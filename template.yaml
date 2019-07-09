@@ -57,7 +57,7 @@ Resources:
         - ResourceName: getUser
       CodeUri: src/getUser
       Handler: handler.handler
-      Runtime: python2.7
+      Runtime: python3.7
       MemorySize: 3008
       Timeout: 30
       Tracing: Active
@@ -104,7 +104,7 @@ Resources:
         - ResourceName: updateUser
       CodeUri: src/updateUser
       Handler: handler.handler
-      Runtime: python2.7
+      Runtime: python3.7
       MemorySize: 3008
       Timeout: 30
       Tracing: Active
@@ -134,7 +134,7 @@ Resources:
         - ResourceName: createUser
       CodeUri: src/createUser
       Handler: handler.handler
-      Runtime: python2.7
+      Runtime: python3.7
       MemorySize: 3008
       Timeout: 30
       Tracing: Active
@@ -164,7 +164,7 @@ Resources:
         - ResourceName: deleteUser
       CodeUri: src/deleteUser
       Handler: handler.handler
-      Runtime: python2.7
+      Runtime: python3.7
       MemorySize: 3008
       Timeout: 30
       Tracing: Active
@@ -194,7 +194,7 @@ Resources:
         - ResourceName: listUsers
       CodeUri: src/listUsers
       Handler: handler.handler
-      Runtime: python2.7
+      Runtime: python3.7
       MemorySize: 3008
       Timeout: 30
       Tracing: Active
